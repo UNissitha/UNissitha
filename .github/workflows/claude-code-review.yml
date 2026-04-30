@@ -27,7 +27,11 @@ jobs:
 
     steps:
       - name: Checkout repository
+<<<<<<< HEAD
         uses: actions/checkout@v4
+=======
+        uses: actions/checkout@v6
+>>>>>>> d1eece7e7bc6d2389f00b07109434756df69c06a
         with:
           fetch-depth: 1
 
